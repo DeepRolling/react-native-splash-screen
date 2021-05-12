@@ -7,18 +7,18 @@
             android:src="@mipmap/bg"
             />
     </item>
-    <item android:bottom="140dp">
+    <item android:bottom="300dp">
         <bitmap
             android:gravity="center"
             android:scaleType="centerCrop"
-            android:src="@mipmap/launch_center_icon"
+            android:src="@mipmap/logo"
              />
     </item>
-    <item android:bottom="0dp">
+    <item android:bottom="70dp">
         <bitmap
             android:gravity="bottom"
             android:scaleType="centerCrop"
-            android:src="@mipmap/bottom"
+            android:src="@mipmap/notice_bottom"
             />
     </item>
 </layer-list>
