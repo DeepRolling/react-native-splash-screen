@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+drawable test
+layout launch_screen
+mipmap bg
+mipmap bottom
+mipmap icon
+mipmap launch_center_icon
+string app_name
+style SplashScreen_Fullscreen
+style SplashScreen_SplashAnimation
+style SplashScreen_SplashTheme
