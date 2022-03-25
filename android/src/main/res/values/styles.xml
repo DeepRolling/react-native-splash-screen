@@ -13,7 +13,7 @@
     <style name="SplashScreen_Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowExitAnimation">@null</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowBackground">@drawable/splashLayerList</item>
+        <item name="android:windowBackground">@drawable/splash_layer_list</item>
 
     </style>
 </resources>
