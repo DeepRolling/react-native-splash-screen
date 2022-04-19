@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color
+            android:color="#FFFFFF"
+            android:gravity="fill" />
+    </item>
+    <item android:bottom="280dp"
+         android:gravity="center_vertical|center_horizontal">
+        <bitmap
+            android:scaleType="centerCrop"
+            android:src="@mipmap/logo_decoration" />
+    </item>
+    <item android:bottom="100dp"
+        android:gravity="center_vertical|center_horizontal">
+        <bitmap
+
+            android:scaleType="centerCrop"
+            android:src="@mipmap/center_decoration" />
+    </item>
+    <item>
+        <bitmap
+            android:gravity="bottom"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/bottom_decoration" />
+    </item>
+</layer-list>
