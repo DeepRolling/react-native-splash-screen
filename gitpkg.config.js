@@ -1,4 +1,4 @@
 // Example content of gitpkg.config.js
 module.exports = () => ({
-    getTagName: (pkg) => `smartTinyGrid-v${pkg.version}-gitpkg`,
+    getTagName: (pkg) => `greendev-v${pkg.version}-gitpkg`,
 });

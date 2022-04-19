@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
-        <bitmap
-                android:gravity="fill"
-                android:src="@mipmap/splash_screen_bg"
-        />
+        <color
+            android:color="#FFFFFF"
+            android:gravity="fill" />
     </item>
-    <item android:bottom="20dp">
+    <item android:bottom="280dp"
+         android:gravity="center_vertical|center_horizontal">
         <bitmap
-                android:gravity="bottom"
-                android:scaleType="centerCrop"
-                android:src="@mipmap/splash_screen_bottom_logo"
-        />
+            android:scaleType="centerCrop"
+            android:src="@mipmap/logo_decoration" />
     </item>
-    <item android:bottom="120dp">
+    <item android:bottom="100dp"
+        android:gravity="center_vertical|center_horizontal">
         <bitmap
-                android:gravity="center"
-                android:scaleType="centerCrop"
-                android:src="@mipmap/splash_screen_slogan"
-        />
+
+            android:scaleType="centerCrop"
+            android:src="@mipmap/center_decoration" />
+    </item>
+    <item>
+        <bitmap
+            android:gravity="bottom"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/bottom_decoration" />
     </item>
 </layer-list>
