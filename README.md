@@ -4,14 +4,20 @@
 This project is a piece of personal copy used in some projects.
 Base on official package [react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen)
 
-For each project, I use [gitpkg](https://github.com/ramasilveyra/gitpkg) to package all resources in one tag.
+For each project, I use [gitpkg](https://github.com/ramasilveyra/gitpkg) to package all resources in one tag and store 
+it to this repository.
 
-So I can use multiple library in one project with packaged resources.
+So I can declare these tags in my projects as dependencies.
 
-For example : 
+For example, I can use specific tag in project: 
 
-```typescript
+```json
+"react-native-splash-screen": "DeepRolling/react-native-splash-screen.git#greendev-v3.2.0-gitpkg"
+```
 
+And another tag for another project:
+```json
+"react-native-splash-screen": "DeepRolling/react-native-splash-screen.git#smartTinyGrid-v3.2.0-gitpkg"
 ```
 
 
